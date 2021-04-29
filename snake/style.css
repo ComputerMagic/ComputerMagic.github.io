@@ -18,7 +18,6 @@ body {
   text-align: center;
 }
 
-/* title */
 header {
   text-align: center;
   font-size: 32px;
@@ -27,7 +26,6 @@ header {
   color: white;
 }
 
-/* main table */
 .snakeTable {
   width: 210px;
   height: 230px;
@@ -45,7 +43,6 @@ header {
   }
 }
 
-/* all boxes in the table */
 .box {
   background: white;
   border: solid 1px #9e9e9e;
@@ -67,7 +64,6 @@ header {
   background: #000000;
 }
 
-/* bar showing status below table */
 .status {
   background: white;
   color: #16a085;
@@ -99,7 +95,6 @@ header {
   display: none !important;
 }
 
-/* modular window before and after game */
 .modul {
   display: flex;
   flex-direction: column;
