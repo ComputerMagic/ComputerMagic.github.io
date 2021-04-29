@@ -13,11 +13,12 @@ body {
   min-height: 100vh;
   font-family: arial;
   background: #2ecc71;
-  background-image: linear-gradient(to top left, #595959, #c8c8c8);
+  background-image: linear-gradient(to top left, #2980b9, #16a085, #2ecc71);
   position: relative;
   text-align: center;
 }
 
+/* title */
 header {
   text-align: center;
   font-size: 32px;
@@ -26,6 +27,7 @@ header {
   color: white;
 }
 
+/* main table */
 .snakeTable {
   width: 210px;
   height: 230px;
@@ -43,9 +45,10 @@ header {
   }
 }
 
+/* all boxes in the table */
 .box {
   background: white;
-  border: solid 1px #9e9e9e;
+  border: solid 1px #16a085;
   width: 10px;
   height: 10px;
 }
@@ -57,13 +60,14 @@ header {
 }
 
 .food {
-  background: 202020;
+  background: #8e44ad;
 }
 
 .snake {
-  background: #000000;
+  background: #16a085;
 }
 
+/* bar showing status below table */
 .status {
   background: white;
   color: #16a085;
@@ -95,6 +99,7 @@ header {
   display: none !important;
 }
 
+/* modular window before and after game */
 .modul {
   display: flex;
   flex-direction: column;
