@@ -48,7 +48,7 @@ header {
 /* all boxes in the table */
 .box {
   background: white;
-  border: solid 1px #16a085;
+  border: solid 1px #353535;
   width: 10px;
   height: 10px;
 }
@@ -60,11 +60,11 @@ header {
 }
 
 .food {
-  background: #8e44ad;
+  background: red;
 }
 
 .snake {
-  background: #16a085;
+  background: #000000;
 }
 
 /* bar showing status below table */
