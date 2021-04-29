@@ -1,7 +1,3 @@
-
-// ADD time?
-// increase speed over time/food
-alert("test");
 var snakeTable = document.querySelector(".snakeTable");
 var boxes = document.getElementsByClassName("box");
 var modul = document.querySelector(".modul");
